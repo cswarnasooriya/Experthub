@@ -4,19 +4,19 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const FooterLinks = [
   {
     title: "About",
-    link: "/#about",
+    link: "#about",
   },
   {
     title: "Features",
-    link: "/#features",
+    link: "#features",
   },
   {
     title: "Works",
-    link: "/#works",
+    link: "#works",
   },
   {
     title: "Career",
-    link: "/#career",
+    link: "#career",
   },
 ];
 const HelpLinks = [
@@ -47,7 +47,7 @@ const ResourcesLinks = [
     link: "/#blogs",
   },
   {
-    title: "Subscribe TCJ",
+    title: "All Right Reserved@2024 Chanuka",
     link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
   },
 ];
@@ -59,12 +59,10 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Digital Agency
+              ExpertHub
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit consectetur adipisicing elit ipsum
-              dolor sit amet consectetur. adipisicing{" "}
+            Digital agencies are strategic and creative marketing agencies focused on user experience, mobile, social, data gathering and analytics apart.{" "}
             </p>
             <br />
             {/* Social Handle */}

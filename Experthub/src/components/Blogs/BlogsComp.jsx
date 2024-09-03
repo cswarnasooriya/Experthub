@@ -8,11 +8,11 @@ const BlogsData = [
   {
     id: 1,
     image: Img1,
-    title: "Realtime analytics",
+    title: "Data Analysis",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
-    author: "Someone",
-    date: "April 22, 2022",
+    author: "Supun Perera",
+    date: "April 22, 2024",
   },
   {
     id: 2,
@@ -20,17 +20,17 @@ const BlogsData = [
     title: "Realtime analytics",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
+    author: "Jayani Bandara",
+    date: "April 12, 2011",
   },
   {
     id: 3,
     image: Img3,
-    title: "Realtime analytics",
+    title: "Mobile App Render",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
+    author: "Manjula Silva",
+    date: "July 22, 2023",
   },
 ];
 
@@ -48,7 +48,7 @@ const BlogsComp = () => {
             ))}
           </div>
           <div className="text-center">
-            <button className="primary-btn">View All Posts</button>
+            <button className="primary-btn">View All Blogs</button>
           </div>
         </section>
       </div>

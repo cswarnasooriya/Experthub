@@ -4,21 +4,39 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "David Calathan - Director of Design Operations, New York",
+    name: "Mrs. Kumarika Bandara - Morawaka",
     text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/101/101",
+    img: "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 1,
-    name: "David Calathan - Director of Design Operations, New York",
-    text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/102/102",
+    name: "Mr. Sampath Gamage - Kandy",
+    text: "With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    img: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: 1,
-    name: "Smith - Director of Operations, New York",
-    text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/103/103",
+    name: "Mr. Gaveesh Jaliya - Maradana",
+    text: "With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    img: "https://images.pexels.com/photos/32976/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    id: 1,
+    name: "Mr. Dammika Indunil - Colombo 03",
+    text: "With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    img: "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    id: 1,
+    name: "Mr. Sampath Gamage - Kandy",
+    text: "With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    img: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    id: 1,
+    name: "Mr.Anjana Perera - Balangoda",
+    text: "The results have there. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    img: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
 
@@ -30,8 +48,8 @@ const Testimonial = () => {
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2500,
     cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,

@@ -9,7 +9,7 @@ const skillsData = [
     icon: <FaCameraRetro className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "App development is often challenging for beginners because learning the languages requires familiarity with advanced programming skills. This challenge is compounded by mobile programming languages being less versatile than some of their web development counterparts, making it difficult to rely on existing skills.",
     aosDelay: "0",
   },
   {
@@ -17,7 +17,7 @@ const skillsData = [
     icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "A web designer is responsible for creating the design and layout of a website or web pages. Unlike web developers, who specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.",
     aosDelay: "300",
   },
   {
@@ -25,7 +25,7 @@ const skillsData = [
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Graphic designers create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. They develop the overall layout and production design for applications such as advertisements, brochures, magazines, and reports.",
     aosDelay: "500",
   },
   {
@@ -33,14 +33,14 @@ const skillsData = [
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "The scope of a digital marketer's role encompasses a wide range of digital media, including social media, search engines, email, content creation and online advertising. Their primary goal is to connect with target audiences, drive engagement and achieve business objectives through digital means.",
     aosDelay: "700",
   },
 ];
 const Services = () => {
   return (
     <>
-      <span id="about"></span>
+      <span id="services"></span>
       <div className="bg-gray-100 dark:bg-black dark:text-white py-12 sm:grid sm:place-items-center">
         <div className="container">
           {/* Header */}
@@ -49,11 +49,11 @@ const Services = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold sm:text-3xl text-violet-950 dark:text-primary"
             >
-              Explore Our Services
+              Explore Our Best Services
             </h1>
             <p
               data-aos="fade-up"
-              className="text-gray-600 dark:text-gray-400 text-sm"
+              className="text-gray-600 dark:text-gray-400 text-md"
             >
               We are self-service data analytics software that lets you create
               visually.
@@ -71,7 +71,7 @@ const Services = () => {
               >
                 <div>{skill.icon}</div>
                 <h1 className="text-lg font-semibold">{skill.name}</h1>
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400 text-justify">
                   {skill.description}
                 </p>
               </div>
@@ -81,11 +81,11 @@ const Services = () => {
           {/* button */}
           <div
             data-aos="fade-up"
-            data-aos-delay="900"
+            data-aos-delay="1100"
             data-aos-offset="0"
             className="text-center mt-4 sm:mt-8"
           >
-            <button className="primary-btn">Learn More</button>
+            <button className="primary-btn">More Interesting</button>
           </div>
         </div>
       </div>

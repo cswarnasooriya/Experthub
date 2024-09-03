@@ -35,11 +35,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo section */}
           
-          
-            <img src={Logo} alt="" className="w-5" />
-            <span className="text-2xl sm:text-3xl font-semibold">
-              Expert<span className="text-orange-600 font-mono text-5xl">Hub</span>
+          <div className="flex justify-between items-center gap-x-4">
+          <img src={Logo} alt="" className="w-5" />
+            <span className="text-2xl sm:text-2xl font-semibold">
+            Expert<span className="text-orange-600 font-mono text-5xl">Hub</span>
             </span>
+          </div>
+            
           
           {/* Desktop view Navigation */}
           <nav className="hidden md:block">
