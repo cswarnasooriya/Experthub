@@ -28,23 +28,19 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <div
-      className="relative z-10 w-full dark:bg-black dark:text-white duration-300
-    "
-    >
+    
+      <div
+      className="relative z-10 w-full dark:bg-black dark:text-white duration-300" >
       <div className="container py-3 md:py-2">
         <div className="flex justify-between items-center">
           {/* Logo section */}
-          <a
-            target="_blank"
-            href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1"
-            className="flex items-center gap-3"
-          >
+          
+          
             <img src={Logo} alt="" className="w-5" />
             <span className="text-2xl sm:text-3xl font-semibold">
-              Digital agency
+              Expert<span className="text-orange-600 font-mono text-5xl">Hub</span>
             </span>
-          </a>
+          
           {/* Desktop view Navigation */}
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
@@ -83,7 +79,9 @@ const Navbar = () => {
         </div>
       </div>
       <ResponsiveMenu showMenu={showMenu} />
-    </div>
+    
+</div>
+    
   );
 };
 
